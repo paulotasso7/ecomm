@@ -8,7 +8,7 @@ import NavBar from "./components/NavBar";
 
 const App: React.FC = (): JSX.Element => {
   return (
-    <div className="App">
+    <div data-testid="App">
       <ProductList />
       <Cart />
       <Details />

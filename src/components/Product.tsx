@@ -1,10 +1,10 @@
 import React from "react";
 
-interface Props {}
+interface ProductProps {}
 
-interface State {}
+interface ProductState {}
 
-class Product extends React.Component<Props, State> {
+class Product extends React.Component<ProductProps, ProductState> {
   state: any = { state: null };
   render() {
     return (
